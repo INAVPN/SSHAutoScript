@@ -17,7 +17,7 @@ apt install jq curl -y
 DOMAIN=kosong
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c6)
 SUB_DOMAIN=${sub}.kosong.online
-CF_ID=givpn11@gmail.com
+CF_ID=owayneforrestx9@gmail.com
 CF_KEY=0f738ffa9cdbbb44a0a0cd77c04h1fa12343e
 set -euo pipefail
 IP=$(wget -qO- ipv4.icanhazip.com);
