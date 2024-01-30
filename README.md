@@ -19,8 +19,8 @@
 
 # All Supported Protocols
 <br>
-- SlowDNS SSH             : ALL Port SSH<br>
-- OpenSSH                 : 22<br>
+* SlowDNS SSH             : ALL Port SSH<br>
+* OpenSSH                 : 22<br>
 - OpenVPN                 : TCP 1194, UDP 2200, SSL 990<br>
 - Stunnel5                : 443, 445<br>
 - Dropbear                : 443, 109, 143<br>
