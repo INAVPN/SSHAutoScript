@@ -18,7 +18,7 @@
 <br>
 
 # All Supported Protocols
-<br>
+<font color="green"><br>
 * SlowDNS SSH             : ALL Port SSH<br>
 * OpenSSH                 : 22<br>
 - OpenVPN                 : TCP 1194, UDP 2200, SSL 990<br>
@@ -48,7 +48,7 @@
 - OHP Dropbear            : 8282<br>
 - OHP OpenVPN             : 8383<br>
 - TrojanGo                : 2087<br>
-<br>
+<br></font><br>
 
 # Service Information
 <br>
