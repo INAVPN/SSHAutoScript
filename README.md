@@ -51,7 +51,7 @@
 <br></font><br>
 
 # Service Information
-<br>
+<font color="green"><br>
 - Timezone : Asia/Jakarta (GMT +7)<br>
 - Fail2Ban : [ON]<br>
 - Dflate : [ON]<br>
@@ -61,7 +61,7 @@
 - Autoreboot On 05.00 GMT +7<br>
 - Auto Delete Expired Accounts<br>
 - FEATURE Backup DELETE PERMANENT<br>
-<br>
+<br></font><br>
 
 # Install
 - Step 1 Update
