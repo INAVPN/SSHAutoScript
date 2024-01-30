@@ -17,7 +17,7 @@
 - 1GB of RAM<br>
 <br>
 
-# Protocols
+# All Supported Protocols
 <br>
 - SlowDNS SSH             : ALL Port SSH<br>
 - OpenSSH                 : 22<br>
