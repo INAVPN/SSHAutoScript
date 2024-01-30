@@ -69,7 +69,7 @@
 apt-get update && apt-get upgrade -y && apt-get dist-upgrade -y && reboot
 ```
 - Step 2 Install
-- # Auto Install Script
+# Auto Install Script
 ```
 rm -f setup.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-get update -y && apt-get upgrade && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/INAVPN/SSHAutoScript/master/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
 ```
@@ -78,3 +78,8 @@ rm -f setup.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-
 # Telegram
 [![Telegram-chat](https://img.shields.io/badge/Chat-Telegram-blue)](https://t.me/Android_Dev_tech/)
 [![Telegram-group](https://img.shields.io/badge/Telegram-group-blue)](https://t.me/ktunnelvpnpro/)
+
+
+
+![Telegram](https://img.shields.io/badge/-telegram-red?color=white&logo=telegram&logoColor=black)
+![Instagram](https://img.shields.io/badge/-Instagram-red?color=white&logo=instagram&logoColor=black)
