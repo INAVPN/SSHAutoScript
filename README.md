@@ -76,9 +76,9 @@ rm -f setup.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-
   
 # Contact me if you have anything to ask
 # Telegram
-[![Telegram-chat](https://img.shields.io/badge/Chat-Telegram-blue)](https://t.me/Android_Dev_tech/)
+[![Telegram](https://img.shields.io/badge/-telegram-red?color=white&logo=telegram&logoColor=blue)](https://t.me/Android_Dev_tech/)
 [![Telegram-group](https://img.shields.io/badge/Telegram-group-blue)](https://t.me/ktunnelvpnpro/)
 
 
 
-[![Telegram](https://img.shields.io/badge/-telegram-red?color=white&logo=telegram&logoColor=blue)](https://t.me/Android_Dev_tech/)
+
