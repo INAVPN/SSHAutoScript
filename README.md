@@ -9,13 +9,13 @@
 </div>
 
 # Required
-<br>
+<font><br>
 - DOMAIN (MUST)/RANDOM from Script<br>
 - DEBIAN 9/10<br>
 - Ubuntu 18/20 LTS<br>
 - CPU MIN 1 CORE<br>
 - 1GB of RAM<br>
-<br>
+<br></font><br>
 
 # All Supported Protocols
 <font color="green"><br>
@@ -51,7 +51,7 @@
 <br></font><br>
 
 # Service Information
-<font color="green"><br>
+<font><br>
 - Timezone : Asia/Jakarta (GMT +7)<br>
 - Fail2Ban : [ON]<br>
 - Dflate : [ON]<br>
