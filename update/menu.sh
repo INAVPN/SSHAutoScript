@@ -34,13 +34,13 @@ clear
 # echo -e ""
 echo -e "$y🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀$wh"
 #echo -e "\e[1;34m              Sytem Info\e[0m"
-tput setaf 7 ; tput setab 4 ; tput bold ; printf '%40s%s%-12s\n'"Sytem Info" ; tput sgr0
+tput setaf 7 ; tput setab 4 ; tput bold ; printf '%40s%s%-12s\n' "Sytem Info" ; tput sgr0
 echo -e "$y🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀$wh"
-echo -e " \e[1;31mHostname    \e[0m: $HOSTNAME"
-echo -e " \e[1;31mOS Name     \e[0m: $Tipe"
-echo -e " \e[1;31mTotal RAM   \e[0m: ${totalram}MB"
+echo -e " \e[1;32mHostname    \e[0m: $HOSTNAME"
+echo -e " \e[1;32mOS Name     \e[0m: $Tipe"
+echo -e " \e[1;32mTotal RAM   \e[0m: ${totalram}MB"
 echo -e " \e[1;32mPublic IP   \e[0m: $MYIP"
-echo -e " \e[1;34mDomain      \e[0m: $Domen"
+echo -e " \e[1;32mDomain      \e[0m: $Domen"
 #echo -e " \e[1;34mCountry     \e[0m: $LOC"
 # =======================================
 #echo -e " \e[1;34mProvider    \e[0m: $ISP"
@@ -52,7 +52,7 @@ echo -e "$yl            Telegram : $yy t.me/ktunnelvpnpro$wh"
 echo -e "$y🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥$wh"
 echo -e "$yy--------------------------------------------------------------------------$wh"
 #echo -e "\e[1;34m               SSH MENU\e[0m"
-tput setaf 7 ; tput setab 4 ; tput bold ; printf '%40s%s%-12s\n'"SSH MENU" ; tput sgr0
+tput setaf 7 ; tput setab 4 ; tput bold ; printf '%40s%s%-12s\n' "SSH MENU" ; tput sgr0
 echo -e "$yy--------------------------------------------------------------------------$wh"
 
 echo -e "\033[0;36m[1]\033[m$y. SSH & OpenVPN MENU$wh"
