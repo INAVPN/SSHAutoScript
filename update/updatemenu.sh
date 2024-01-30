@@ -35,7 +35,7 @@ rm -rf restart
 rm -rf slhost
 rm -rf install-sldns
 rm -rf addssh
-wget -O install-sldns "https://raw.githubusercontent.com/INAVPN/SSHAutoScript/master/SLDNS/install-sldns"
+wget -O install-sldns "https://raw.githubusercontent.com/INAVPN/SSHAutoScript/master/SLOWDNSTT/install-sldns"
 wget -O restart "https://raw.githubusercontent.com/INAVPN/SSHAutoScript/master/ssh/restart.sh"
 wget -O m-tcp "https://raw.githubusercontent.com/INAVPN/SSHAutoScript/master/update/m-tcp.sh"
 wget -O m-dns "https://raw.githubusercontent.com/INAVPN/SSHAutoScript/master/update/m-dns.sh"
