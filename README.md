@@ -81,5 +81,4 @@ rm -f setup.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-
 
 
 
-![Telegram](https://img.shields.io/badge/-telegram-red?color=white&logo=telegram&logoColor=black)
-![Instagram](https://img.shields.io/badge/-Instagram-red?color=white&logo=instagram&logoColor=black)
+![Telegram](https://img.shields.io/badge/-telegram-red?color=white&logo=telegram&logoColor=blue)
