@@ -52,7 +52,7 @@ akbarvpnnnnnnnnnn="raw.githubusercontent.com/INAVPN/SSHAutoScript/master/ohp"
 # Getting
 echo -e ""
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "\E[44;1;39m          ⇱ SCRIPT BY GIVPN ⇲          \E[0m"
+echo -e "\E[44;1;39m          ⇱ SCRIPT BY OHTv & I.N.A ⇲          \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e ""
 apt install git curl -y >/dev/null 2>&1
@@ -200,7 +200,6 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo "----------------------------------------------------------------------------" | tee -a log-install.txt
-#echo "   -                Telegram : t.me/givpn" | tee -a log-install.txt 
 echo "   -                Telegram : t.me/ktunnelvpnpro" | tee -a log-install.txt
 echo "$BGreen Auto reboot 10 Sec $NC"
 sleep 10
