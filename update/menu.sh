@@ -33,7 +33,8 @@ sldomain="$(cat /root/nsdomain)"
 clear
 # echo -e ""
 echo -e "$y🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀$wh"
-echo -e "\e[1;34m              Sytem Info\e[0m"
+#echo -e "\e[1;34m              Sytem Info\e[0m"
+tput setaf 7 ; tput setab 4 ; tput bold ; printf '%40s%s%-12s\n'     "Sytem Info" ; tput sgr0
 echo -e "$y🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀$wh"
 echo -e " \e[1;34mHostname    \e[0m: $HOSTNAME"
 echo -e " \e[1;34mOS Name     \e[0m: $Tipe"
