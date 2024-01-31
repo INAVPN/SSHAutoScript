@@ -40,7 +40,7 @@ locality=Suka
 organization=Mamah
 organizationalunit=Muda
 commonname=Sange
-email=givpn11@gmail.com
+email=owayneforrestx9@gmail.com
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://${akbarvpn}/password"
