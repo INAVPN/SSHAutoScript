@@ -22,10 +22,10 @@ echo "$SUB_DOMAIN" >> /etc/v2ray/domain
 #
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-z0-9 | head -c5)
-DOMAIN=givpn.online
-SUB_DOMAIN=aot-${sub}.givpn.online
-NS_DOMAIN=aotns-${sub}.givpn.online
-CF_ID=givpn11@gmail.com
+DOMAIN=6kvpn.com
+SUB_DOMAIN=inavpn-${sub}.6kvpn.com
+NS_DOMAIN=ohtv-${sub}.6kvpn.com
+CF_ID=owayneforrestx9@gmail.com
 CF_KEY=f881f9b79d839f0f2f7601f7a7bd18ab8ddda
 set -euo pipefail
 IP=$(wget -qO- ipv4.icanhazip.com);
