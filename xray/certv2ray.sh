@@ -23,7 +23,7 @@ bash acme.sh --install
 rm acme.sh
 cd .acme.sh
 echo "starting...., Port 80 will be stopped during the Cert install process"
-bash acme.sh --register-account -m givpn11@gmail.com
+bash acme.sh --register-account -m owayneforrestx9@gmail.com
 bash acme.sh --issue --standalone -d $domain --force
 bash acme.sh --installcert -d $domain --fullchainpath /etc/xray/xray.crt --keypath /etc/xray/xray.key
 
