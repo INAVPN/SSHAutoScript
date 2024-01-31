@@ -1,7 +1,7 @@
 #!/bin/bash
 # cari apa tod
-Exp2=$"Lifetime"
-Name=$"givpn"
+Exp2=$"Never"
+Name=$"I.N.A"
 # Color Validation
 green='\e[32m'
 red='\e[31m'
