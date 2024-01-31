@@ -55,7 +55,7 @@ echo -e "$yy--------------------------------------------------------------------
 tput setaf 7 ; tput setab 4 ; tput bold ; printf '%40s%s%-12s\n' "SSH MENU" ; tput sgr0
 echo -e "$yy--------------------------------------------------------------------------$wh"
 
-echo -e "\033[0;36m[1]\033[m$y. SSH & OpenVPN MENU$wh"
+echo -e "\033[0;36m[1]\033[m$y.  SSH VPN MENU$wh"
 echo -e "\033[0;36m[2]\033[m$y.  L2TP MENU$wh"
 echo -e "\033[0;36m[3]\033[m$y.  PPTP MENU$wh"
 echo -e "\033[0;36m[4]\033[m$y.  SSTP MENU$wh"
