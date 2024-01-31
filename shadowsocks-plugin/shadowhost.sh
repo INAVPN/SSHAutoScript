@@ -17,10 +17,10 @@ rm -rf /var/lib/crot/ipvps.conf
 #
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-x0-9 | head -c5)
-DOMAIN=givpn.my.id
-SUB_DOMAIN=host-${sub}.givpn.my.id
-NS_DOMAIN=ns-${subsl}.givpn.my.id
-CF_ID=givpn11@gmail.com
+DOMAIN=6ktunnel.com
+SUB_DOMAIN=host-${sub}.6ktunnel.com
+NS_DOMAIN=ns-${subsl}.6ktunnel.com
+CF_ID=owayneforrestx9@gmail.com
 CF_KEY=0f738ffa9cdbbb44a0a0cd77c0411fa12343e
 echo "IP=""$SUB_DOMAIN" >> /var/lib/crot/ipvps.conf
 set -euo pipefail
