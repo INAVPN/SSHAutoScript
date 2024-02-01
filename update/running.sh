@@ -166,30 +166,30 @@ else
    status_fail2ban="${RED}  Not Running ${NC} ⚠️‼️ ${RED}DOWN${NC}"
 fi
 
-# STATUS SERVICE  TLS 
+# STATUS SERVICE Vmess TLS 
 if [[ $tls_v2ray_status == "running" ]]; then 
-   status_tls_v2ray=" ${GREEN}Running${NC}   ✅ ${GREEN}UP${NC}"
+   status_tls_v2ray=" ${GREEN}Running${NC}  ✅ ${GREEN}UP${NC}"
 else
    status_tls_v2ray="${RED}  Not Running${NC} ⚠️‼️ ${RED}DOWN${NC}"
 fi
 
-# STATUS SERVICE NON TLS V2RAY
+# STATUS SERVICE Vmess NON TLS V2RAY
 if [[ $nontls_v2ray_status == "running" ]]; then 
-   status_nontls_v2ray=" ${GREEN}Running ${NC}  ✅ ${GREEN}UP${NC}"
+   status_nontls_v2ray=" ${GREEN}Running ${NC} ✅ ${GREEN}UP${NC}"
 else
    status_nontls_v2ray="${RED}  Not Running ${NC} ⚠️‼️ ${RED}DOWN${NC}"
 fi
 
 # STATUS SERVICE VLESS HTTPS
 if [[ $vless_tls_v2ray_status == "running" ]]; then
-  status_tls_vless=" ${GREEN}Running${NC} ✅ ${GREEN}UP${NC}"
+  status_tls_vless=" ${GREEN}Running${NC}  ✅ ${GREEN}UP${NC}"
 else
   status_tls_vless="${RED}  Not Running ${NC} ⚠️‼️ ${RED}DOWN${NC}"
 fi
 
 # STATUS SERVICE VLESS HTTP
 if [[ $vless_nontls_v2ray_status == "running" ]]; then
-  status_nontls_vless=" ${GREEN}Running${NC} ✅ ${GREEN}UP${NC}"
+  status_nontls_vless=" ${GREEN}Running${NC}  ✅ ${GREEN}UP${NC}"
 else
   status_nontls_vless="${RED}  Not Running ${NC} ⚠️‼️ ${RED}DOWN${NC}"
 fi
