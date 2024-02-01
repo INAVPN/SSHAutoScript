@@ -231,14 +231,14 @@ fi
 
 # STATUS SERVICE L2TP
 if [[ $l2tp_status == "running" ]]; then 
-   status_l2tp=" ${GREEN}Running${NC} ✅ ${NC}"
+   status_l2tp=" ${GREEN}Running${NC}  ✅ ${NC}"
 else
    status_l2tp="${RED}  Not Running${NC} ⚠️‼️ ${NC}"
 fi
 
 # STATUS SERVICE DROPBEAR
 if [[ $dropbear_status == "running" ]]; then 
-   status_beruangjatuh=" ${GREEN}Running${NC} ✅ ${NC}"
+   status_beruangjatuh=" ${GREEN}Running${NC}  ✅ ${NC}"
 else
    status_beruangjatuh="${RED}  Not Running ${NC} ⚠️‼️ ${NC}"
 fi
