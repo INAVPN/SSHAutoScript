@@ -151,7 +151,7 @@ updatemenu
 ;;
 17)
 clear
-
+fixstun
 ;;
 18)
 clear
