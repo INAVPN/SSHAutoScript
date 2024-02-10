@@ -71,9 +71,10 @@ echo -e "\033[0;36m[13]\033[m$y. SLOWDNS MENU$wh"
 echo -e "\033[0;36m[14]\033[m$y. CHECK ALL IP PORT$wh"
 echo -e "\033[0;36m[15]\033[m$y. CHECK ALL SERVICE VPN$wh"
 echo -e "\033[0;36m[16]\033[m$y. UPDATE MENU (Update)$wh"
-echo -e "\033[0;36m[17]\033[m$y. sl-fix (Fix SSLH+WS-TLS Error after reboot)$wh"
-echo -e "\033[0;36m[18]\033[m$y. Settings$wh"
-echo -e "\033[0;36m[19]\033[m$y. Exit$wh"
+echo -e "\033[0;36m[17]\033[m$y. TO Fix SSL/TLS (Fix Stunnel5)$wh"
+echo -e "\033[0;36m[18]\033[m$y. sl-fix (Fix SSLH+WS-TLS Error after reboot)$wh"
+echo -e "\033[0;36m[19]\033[m$y. Settings$wh"
+echo -e "\033[0;36m[20]\033[m$y. Exit$wh"
 echo -e "$y🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀$wh"
 #echo -e "$yy 20$y. Exit $wh"
 #echo -e "$y-------------------------------------------------$wh"
@@ -82,7 +83,7 @@ echo -e "$y🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀�
 #echo -e "$y-------------------------------------------------$wh"
 #echo -e "$yl            Telegram : t.me/ktunnelvpnpro$wh"
 #echo -e "$y-------------------------------------------------$wh"
-read -p "Select From Options [ 1 - 20 ] : " menu
+read -p "Select From Options [ 1 - 21 ] : " menu
 case $menu in
 1)
 clear
@@ -150,17 +151,21 @@ updatemenu
 ;;
 17)
 clear
-sl-fix
+
 ;;
 18)
 clear
-setmenu
+sl-fix
 ;;
 19)
 clear
-exit
+setmenu
 ;;
 20)
+clear
+exit
+;;
+21)
 clear
 exit
 ;;
