@@ -1,0 +1,3 @@
+systemctl restart stunnel5
+clear
+menu
