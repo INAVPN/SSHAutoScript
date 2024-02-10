@@ -1,0 +1,30 @@
+#!/bin/bash
+# ==========================================
+green='\e[1;34m'
+NC='\e[0m'
+
+cd /usr/bin
+rm -rf restart
+rm -r restart
+rm restart
+rm -r sslh-fix-reboot
+rm -rf sslh-fix-reboot
+rm sslh-fix-reboot
+rm -r updatemenu
+rm -rf updatemenu
+rm updatemenu
+rm -r menu
+rm -rf menu
+rm updatemenu
+
+
+cd /root/
+systemctl restart stunnel5
+cd
+echo -e "\e[1;34m         Success...\e[0m"
+sleep 2
+clear
+echo -e "\e[1;34m         Fix Finish Back To Menu Please Wait...\e[0m"
+sleep 3
+clear
+menu
