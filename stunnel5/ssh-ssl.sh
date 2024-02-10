@@ -158,6 +158,7 @@ systemctl restart stunnel5
 /etc/init.d/stunnel5 restart
 /etc/init.d/stunnel5 status
 /etc/init.d/stunnel5 restart
+systemctl restart stunnel5.service
 
 
 #
