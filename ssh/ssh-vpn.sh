@@ -326,7 +326,7 @@ systemctl restart stunnel5
 /etc/init.d/stunnel5 restart
 /etc/init.d/stunnel5 status
 /etc/init.d/stunnel5 restart
-systemctl restart stunnel5.service
+
 
 
 #OpenVPN
@@ -558,6 +558,8 @@ screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7200 --max-clients 500
 screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7300 --max-clients 500
 history -c
 echo "unset HISTFILE" >> /etc/profile
+
+systemctl restart stunnel5.service
 
 cd
 rm -f /root/key.pem
