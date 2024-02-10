@@ -158,7 +158,7 @@ systemctl restart stunnel5
 /etc/init.d/stunnel5 restart
 /etc/init.d/stunnel5 status
 /etc/init.d/stunnel5 restart
-systemctl restart stunnel5.service
+
 
 
 #
@@ -172,3 +172,4 @@ systemctl restart stunnel5.service
 /etc/init.d/stunnel5 restart
 /etc/init.d/vnstat restart
 /etc/init.d/fail2ban restart
+systemctl restart stunnel5.service
