@@ -19,7 +19,7 @@ rm updatemenu
 
 
 cd /root/
-systemctl restart stunnel5
+systemctl status stunnel5.service
 cd
 echo -e "\e[1;34m         Success...\e[0m"
 sleep 2
