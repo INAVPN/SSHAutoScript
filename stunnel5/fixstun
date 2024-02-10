@@ -1,6 +1,6 @@
 #!/bin/bash
 # ==========================================
-Green='\e[1;34m'
+green='\e[1;34m'
 NC='\e[0m'
 systemctl restart stunnel5
 clear
