@@ -17,10 +17,11 @@ echo -e "\033[0;36m[7]\033[m$y.  Delete User Expired SSH & OpenVPN"
 echo -e "\033[0;36m[8]\033[m$y.  Set up Autokill SSH"
 echo -e "\033[0;36m[9]\033[m$y.  Displays Users Who Do Multi Login SSH"
 echo -e "\033[0;36m[10]\033[m$y. Restart All Service"
-echo -e "\033[0;36m[11]\033[m$y. Menu"
-echo -e "\033[0;36m[12]\033[m$y. Exit"
+echo -e "\033[0;36m[11]\033[m$y. Add Domain Name or Subdomain Host For SSH Server"
+echo -e "\033[0;36m[12]\033[m$y. Menu"
+echo -e "\033[0;36m[13]\033[m$y. Exit"
 echo -e "$y-------------------------------------------------------------$wh"
-read -p "Select From Options [ 1 - 12 ] : " menu
+read -p "Select From Options [ 1 - 13 ] : " menu
 echo -e ""
 case $menu in
 1)
@@ -54,9 +55,12 @@ ceklim
 restart
 ;;
 11)
-menu
+addhost
 ;;
 12)
+menu
+;;
+13)
 clear
 exit
 ;;
