@@ -25,9 +25,9 @@ echo -e ""
 echo -e "Active DNS : $udns"
 fi
 echo -e ""
-echo -e "[1]. CHANGE DNS"
-echo -e "[2]. Reset DNS To Default"
-echo -e "[3]. Back To Main Menu"
+echo -e "\033[0;36m[1]\033[m$y. CHANGE DNS"
+echo -e "\033[0;36m[2]\033[m$y. Reset DNS To Default"
+echo -e "\033[0;36m[3]\033[m$y. Back To Main Menu"
 echo -e ""
 read -p "Select From Options [ 1 - 3 ] :  " dns
 echo -e ""
