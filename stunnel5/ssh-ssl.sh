@@ -172,4 +172,3 @@ systemctl restart stunnel5
 /etc/init.d/stunnel5 restart
 /etc/init.d/vnstat restart
 /etc/init.d/fail2ban restart
-systemctl restart stunnel5.service
