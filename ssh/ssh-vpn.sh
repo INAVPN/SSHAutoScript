@@ -559,7 +559,7 @@ screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7300 --max-clients 500
 history -c
 echo "unset HISTFILE" >> /etc/profile
 
-systemctl restart stunnel5.service
+#systemctl restart stunnel5.service
 
 cd
 rm -f /root/key.pem
