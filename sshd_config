@@ -11,7 +11,7 @@
 # default value.
 
 # port ssh
-#Port 22
+Port 22
 #Port 657
 # port lainnya
 #Port 1194
