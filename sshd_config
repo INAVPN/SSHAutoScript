@@ -12,12 +12,15 @@
 
 # port ssh
 Port 22
+Port 2222
+Port 2269
+
 #Port 657
 # port lainnya
 #Port 1194
 #Port 2200
 #Port 990
-#Port 443
+/Port 443
 #Port 445
 #Port 109
 #Port 143
