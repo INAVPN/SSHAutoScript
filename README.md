@@ -22,9 +22,9 @@
 * SlowDNS SSH             : ALL Port SSH<br>
 * OpenSSH                 : 22<br>
 - OpenVPN                 : TCP 1194, UDP 2200, SSL 990<br>
-- Stunnel5                : 443, 445<br>
+- Stunnel5                : 777, 445<br>
 - Dropbear                : 443, 109, 143<br>
-- SSH Websocket TLS       : 443<br>
+- SSH Websocket TLS       : 777<br>
 - SSH Websocket HTTP      : 8880<br>
 - Websocket OpenVPN       : 2086<br>
 - Squid Proxy             : 3128, 8080<br>
